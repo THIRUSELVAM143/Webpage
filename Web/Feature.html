@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="top-bar">
+    <div class="top-bar" style="z-index: 1;">
         <span class="badge">MIGRATE TO NETLIFY TODAY</span>
         <p class="msg">
             Netlify announces the next evolution of Gatsby Cloud.
@@ -22,7 +22,7 @@
             <a href="#">Log In</a>
         </div>
     </div>
-    <div class="main-nav">
+    <div class="main-nav" style="z-index: 1;">
         <div class="left-section">
             <div class="logo">
                 <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -212,11 +212,161 @@
             <div class="" style="margin-top: 20px;">
                 <a href="">View all Featured Sites</a>
             </div>
-            <!-- <h3>Sample Site 10</h3> -->
         </div>
 
     </div>
-    
+    <div style="display: flex; height: 100vh; overflow: hidden;">
+
+        <div style="
+        width: 220px;
+        background: #fff;
+        padding: 20px;
+        border-right: 1px solid #e5e5e5;
+        font-family: Arial, sans-serif;
+        position: sticky;
+        
+        height: calc(100vh - 80px);
+        overflow-y: auto;
+    ">
+
+            <p style="font-size: 18px; font-weight: 600; margin-bottom: 20px; color:#444;">
+                Filters
+            </p>
+
+            <p style="font-size: 13px; font-weight: 600; margin-bottom: 10px; color:#777; letter-spacing: 1px;">
+                CATEGORY
+            </p>
+
+            <ul style="list-style: none; padding: 0; margin: 0;">
+
+                <li style="padding: 6px 0; display:flex; justify-content:space-between; align-items:center;">
+                    <label style="display:flex; align-items:center; gap:8px;">
+                        <input type="checkbox"> Agency
+                    </label>
+                    <span style="color:#666;">45</span>
+                </li>
+
+                <li style="padding: 6px 0; display:flex; justify-content:space-between; align-items:center;">
+                    <label style="display:flex; align-items:center; gap:8px;">
+                        <input type="checkbox"> Blog
+                    </label>
+                    <span style="color:#666;">2</span>
+                </li>
+
+                <li style="padding: 6px 0; display:flex; justify-content:space-between; align-items:center;">
+                    <label style="display:flex; align-items:center; gap:8px;">
+                        <input type="checkbox"> Business
+                    </label>
+                    <span style="color:#666;">67</span>
+                </li>
+
+                <li style="padding: 6px 0; display:flex; justify-content:space-between; align-items:center;">
+                    <label style="display:flex; align-items:center; gap:8px;">
+                        <input type="checkbox"> Documentation
+                    </label>
+                    <span style="color:#666;">27</span>
+                </li>
+
+                <li style="padding: 6px 0; display:flex; justify-content:space-between; align-items:center;">
+                    <label style="display:flex; align-items:center; gap:8px;">
+                        <input type="checkbox"> E-commerce
+                    </label>
+                    <span style="color:#666;">36</span>
+                </li>
+
+                <li style="padding: 6px 0; display:flex; justify-content:space-between; align-items:center;">
+                    <label style="display:flex; align-items:center; gap:8px;">
+                        <input type="checkbox"> Education
+                    </label>
+                    <span style="color:#666;">58</span>
+                </li>
+
+                <li style="padding: 6px 0; display:flex; justify-content:space-between; align-items:center;">
+                    <label style="display:flex; align-items:center; gap:8px;">
+                        <input type="checkbox"> Featured
+                    </label>
+                    <span style="color:#666;">18</span>
+                </li>
+
+                <li style="padding: 6px 0; display:flex; justify-content:space-between; align-items:center;">
+                    <label style="display:flex; align-items:center; gap:8px;">
+                        <input type="checkbox"> Finance
+                    </label>
+                    <span style="color:#666;">26</span>
+                </li>
+
+                <li style="padding: 6px 0; display:flex; justify-content:space-between; align-items:center;">
+                    <label style="display:flex; align-items:center; gap:8px;">
+                        <input type="checkbox"> Government
+                    </label>
+                    <span style="color:#666;">13</span>
+                </li>
+
+            </ul>
+        </div>
+
+        <div style="
+            width: 80%;
+            padding: 20px;
+            overflow-y: auto;
+            height: 100vh;
+        ">
+
+            <div style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
+
+                <div style="width: 30%;"><img src="./image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;"></div>
+                <div style="width: 30%;"><img src="./image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;"></div>
+                <div style="width: 30%;"><img src="image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;"></div>
+                <div style="width: 30%;"><img src="image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;"></div>
+                <div style="width: 30%;"><img src="image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;"></div>
+                <div style="width: 30%;"><img src="image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;"></div>
+                <div style="width: 30%;"><img src="image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;"></div>
+                <div style="width: 30%;"><img src="image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;"></div>
+                <div style="width: 30%;"><img src="image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;"></div>
+                <div style="width: 30%;"><img src="image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;">
+                </div>
+                <div style="width: 30%;"><img src="image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;">
+                </div>
+                <div style="width: 30%;"><img src="image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;">
+                </div>
+                <div style="width: 30%;"><img src="image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;">
+                </div>
+                <div style="width: 30%;"><img src="image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;">
+                </div>
+                <div style="width: 30%;"><img src="image/12www.headspace.com-1200x900-1.avif"
+                        style="width: 100%; border-radius: 8px;">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <footer style="background: #eee; padding: 30px; margin-top: 20px;">
+        <h3>Footer Content</h3>
+        <ul style="list-style: none; padding: 0;">
+            <li>123</li>
+            <li>123</li>
+            <li>123</li>
+            <li>123</li>
+            <li>123</li>
+        </ul>
+    </footer>
+
+
 
 </body>
 

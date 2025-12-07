@@ -341,4 +341,5 @@ nav li:hover {
 .Con1:hover img {
     transform: translateY(-5px);
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    z-index: 0;
 }
