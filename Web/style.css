@@ -396,3 +396,81 @@ cursor: pointer;
 .webi h2{
     width: 60%;
 }
+
+.category-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 30px;
+  width: 80%;
+  /* background-color: #333; */
+  padding-left: 100px;
+}
+
+.category {
+  padding: 4px 8px;
+  border: 1px solid #d5b7f5;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 400;
+  color: #663399;
+  cursor: pointer;
+  background: white;
+}
+
+.category:hover {
+  background: #f7efff;
+}
+
+#hh h1:hover,
+#hh h2:hover {
+     color: #663399;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.user-chip {
+  display: inline-flex;
+  align-items: center;
+margin-top: 20px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.user-chip img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+#hh h3:hover {
+     color: #663399;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.pagination-status {
+    font-size: 14px;
+   margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.current-page {
+    font-weight: 600;
+  
+}
+
+.dropdown-arrow {
+    font-size: 10px;
+
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+
