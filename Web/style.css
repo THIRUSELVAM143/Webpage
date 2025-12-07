@@ -333,3 +333,12 @@ nav li:hover {
     text-decoration: underline;
     /* transition: transform 0.3s ease; */
 }
+
+.Con1 img {
+    transition: all 0.3s ease;
+}
+
+.Con1:hover img {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
