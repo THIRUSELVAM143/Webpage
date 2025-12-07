@@ -343,3 +343,35 @@ nav li:hover {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
     z-index: 0;
 }
+
+.Con1:hover h3 {
+    color: #663399;
+    text-decoration: underline;
+
+}
+
+.Features img {
+    transition: all 0.3s ease;
+}
+
+.Features:hover img {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    z-index: 0;
+}
+
+.Features:hover h3 {
+    color: #663399;
+    text-decoration: underline;
+
+}
+
+.vb {
+    margin-bottom: 180px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
